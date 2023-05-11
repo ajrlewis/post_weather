@@ -1,0 +1,124 @@
+Updated January 2023
+
+These license terms are an agreement between Visual Crossing Corporation (“Provider”) and you. Please read them. They apply to your use of the Visual Crossing Weather services and software, including any websites or software extension that allows Visual Crossing Weather to be used in 3rd-party tools.  This collection of services and software is referred to in this agreement as the “Service Components”.  As used in this agreement the term Service Components may refer to any component of Visual Crossing Weather individually or any combination of the Visual Crossing Weather components used together.  This agreement also applies to any updates and supplements released for any of the Service Components, unless other terms accompany those items. If so, those terms apply. 
+
+BY DOWNLOADING, INSTALLING, OR USING THE SERVICE COMPONENTS, OR ATTEMPTING TO DO ANY OF THESE, YOU HAVE ACCEPTED THESE TERMS. IF YOU DO NOT INTEND TO ACCEPT THEM, YOU HAVE NO RIGHT TO (AND MUST NOT) DOWNLOAD OR USE THE SERVICE COMPONENTS. 
+
+
+
+If you comply with these license terms, you have the rights below. 
+
+
+
+1. INSTALLATION AND USE RIGHTS. You may use the Service Components on one or more devices that you own or control. 
+
+
+
+2. NAMED USER. A single, individual human user is referred to as a Named User.  A single Visual Crossing Weather account is licensed for use only by one or more Named User based on the number of Named Users permitted for that account level.  Access to the account may not be shared by more users than the account level allows.  In no case may one account be shared across multiple companies or organizations without written permission from Visual Crossing. 
+
+
+3. MULTIPLE ACCOUNTS. No individual, business, or organization is permitted to have multiple Visual Crossing Weather accounts without the written permission of Visual Crossing unless explicitly allowed by their paid license plan.  If at its sole discretion Visual Crossing determines that multiple accounts have been created, used, or controlled by a single individual, business, or organization, Visual Crossing may disable or delete all related accounts without notice.
+
+
+4. API KEY. The use of the Service Components may require the provisioning of an API Key for you by Visual Crossing.  Accounts may be provisioned one or more API Keys up to the maximum number of Named Users permitted for that account type.  You are only permitted to share your API Key among multiple individual users up to the limit of Named Users allow by your account type.  If API Key sharing is allowed by your account it may only be shared within a single organization or company.  In addition, your API key may be embedded into your website, code or application that is shared.  In this case, you must take reasonable measures to ensure that the API Key is not publicly visible.  All sharing of your API Key must be done  in harmony with the NON-COMPETE clause in this agreement.  In all cases you remain responsible for all charges related to your account and API Key usage. 
+
+    Your API Key must be kept confidential and may not be made directly accessible to the public.  If you become aware of any unauthorized use of your API Key, you agree to notify Visual Crossing immediately.  If Visual Crossing becomes aware of unauthorized use, for security purposes we may disable your API Key without notification. However, Visual Crossing is under no obligation to disable your API Key until you notify us.  In all cases you remain liable for all changes related to your API Key usage until it has been successfully disabled.
+
+5. ACCURATE INFORMATION. You must provide honest and accurate information to Visual Crossing as part of the registration process and in all other occasions where you communicate with Visual Crossing.
+
+6. CIRCUMVENTING LIMITS. You may not use any technique to circumvent any limits or restrictions imposed by Visual Crossing. Disallowed techniques include but are not limited to the following: You may not use scripts or other automated tools to register multiple accounts. You may not use multiple accounts registered by multiple individuals in order to effectively combine the accounts' limits. You may not direct end-users of your product, service, app, or application to register for their own individual Visual Crossing Weather accounts for use within your product, service, app, or application.
+
+7. INTERNET-BASED SERVICE. The Service Components may require access to Internet. In addition to the following, your use of those Services Components is subject to the terms provided to you by your internet service provider and/or your wireless carrier. 
+
+    The Service Components may connect to computer systems over an Internet-based and/or wireless network. Using the Service Components operates as your consent to the transmission over the Internet of any information and data that you submit to the Service Components.  The Service Components may also transmit standard device information (including but not limited to technical information about your device). 
+
+    You may not use the Service Components in any way that could harm it or impair anyone else's use of it. 
+
+
+
+8. SCOPE OF LICENSE. The Service Components are licensed, not sold. This agreement only gives you some rights to use the Service Components. The Service Provider reserves all other rights. Unless the law gives you more rights despite this limitation, you may use the Service only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the Service that only allow you to use it in certain ways. You may not: 
+
+    * work around any technical limitations in the Service Components; 
+
+    * reverse engineer, decompile, or disassemble the Service Components, except and only to the extent that the law expressly permits, despite this limitation; 
+
+    * make more copies of the Service Components than specified in this agreement and your license level; 
+
+    * publish or otherwise make the Service Components available for others to copy; or rent, lease or lend at any level beyond that provided by your license. 
+
+
+
+9. FAIR USE. To maintain the quality and performance of the Visual Crossing Weather server and ensure an optimum level of service performance for all users, Visual Crossing has established a Fair Use Policy.  This Policy seeks to identify and prevent disruptive usage patterns for the security of the system and the benefit of all users.  Under this Policy, Visual Crossing reserves the right to review the usage and establish usage profiles to identify patterns that significantly exceed the average usage. Usage that significantly exceeds the average usage profiles will be considered a violation of this Fair Use Policy.  If a customer’s usage is deemed a violation of this Policy, Visual Crossing may provide the opportunity for the customer to upgrade their service plan or restrict the customer’s usage to maintain levels Visual Crossing deems safe and acceptable.  Under this Fair Use Policy Visual Crossing may also introduce limits as it deems necessary to protect the service and the user community.  In no case shall action under this Fair Use Policy permit any user to receive a refund for any fees already paid to Visual Crossing. 
+
+
+
+10. DATA STORAGE. Except for personal use of the licensee, the data results returned by the Service Components may only be stored in a database or other storage and retrieval system if specifically permitted by your license level.
+
+
+
+11. NON-COMPETE. You are not permitted to use the Service Components or Service Component result data in a way that substantially replicates any service offered commercially by Visual Crossing. When using a paid license, you are permitted to use the Service Components and Service Component result data as part of your own commercial offering, but that offering may not compete directly against any offering available from Visual Crossing.  If, in Visual Crossing’s sole discretion, your usage is deemed a violation this clause, Visual Crossing may terminate your use of the Service Components without notification or refund.  
+
+
+
+12. AVAILABILITY.  Unless stated otherwise in your license agreement, access to the Service Components may be restricted, blocked, or terminated at any time.  Unless your service plan includes an uptime guarantee with specific crediting provisions, Visual Crossing will have no obligation to compensate you under these circumstances or to refund any fees already paid to Visual Crossing. 
+
+
+
+13. BULK DATASETS. For service plans that contain standard, bulk weather datasets, these datasets are not intended as substitutes for business-specific datasets and may not be suitable for any specific purpose.  The formats, units, locations, and other components of these datasets are determined by Visual Crossing and cannot be modified using the Visual Crossing Weather API.  The customer is permitted to modify these datasets using other means and use the datasets in ways that are consistent with these license terms and all license terms that apply to the customer's use of Visual Crossing weather data.  At its sole discretion Visual Crossing reserves the right to change these datasets, their execution frequency, and their availability.  If specific locations, formats, or execution frequencies are required, the customer should use a custom bulk dataset tailored to their specific weather data use case or retrieve data directly through the Visual Crossing Weather API. 
+
+
+
+14. TECHNOLOGY AND EXPORT RESTRICTIONS. The Service Components may be subject to United States or international technology control or export laws and regulations. You must comply with all domestic and international laws and regulations that apply to the technology used, employed or supported by the Service Components. These laws include restrictions on destinations, end users and end use. 
+
+
+
+15. CUSTOMER LIST. If you have a business email attached to your Visual Crossing Weather account or otherwise make Visual Crossing aware that you are using the Service Components on behalf of a business, Visual Crossing may use your business name and/or its logo as part of our public customer list.  You may request that we not use your business information publicly by sending an opt-out request to support@visualcrossing.com from the email address associated with your account.  Upon receipt of a proper opt-out request, we will remove your business information from current versions of our public customer list within ten (10) business days.
+
+
+
+16. DOCUMENTATION AND SUPPORT SERVICES. Documentation and support services are available at https://www.visualcrossing.com and https://support.visualcrossing.com.  An account and/or additional payment may be required to access certain services or areas. 
+
+
+
+17. ENTIRE AGREEMENT. This agreement combined with your license level details are the entire agreement for the Service Components. This section cannot be construed to change the terms of your relationship with Visual Crossing regarding any other Visual Crossing product or service.  Other Visual Crossing products and services are governed by the license terms that accompanied, or terms of use that are associated with, the applicable product or service. 
+
+
+
+18. APPLICABLE LAW.  For any legal dispute arising based on this agreement or related to the Service Components you agree that the laws of state of Virginia and the United States of America will govern.  To the extent possible the jurisdiction of the courts located in the state of Virginia shall apply and the appropriate Virginia court shall be the proper and agreed venue.  This applies regardless of conflict of laws principles. 
+
+
+
+20. LEGAL EFFECT. This agreement describes certain legal rights. You may have other rights under the laws of the state or country where you reside. This agreement does not change your rights under the laws of the state or country where you reside if such laws do not permit it to do so.  If any term of this agreement is to any extent illegal, otherwise invalid, or incapable of being enforced, such term shall be excluded to the extent of such invalidity or unenforceability.  All other terms shall remain in full force and effect; and, to the extent permitted and possible, the invalid or unenforceable term shall be deemed replaced by a term that is valid and enforceable and that comes closest to expressing the intention of such invalid or unenforceable term. 
+
+
+
+21. DISCLAIMER OF WARRANTY. THE SERVICE COMPONENTS ARE LICENSED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE." YOU BEAR ALL RISK OF USING IT. VISUAL CROSSING CORPORATION, INTERNET SERVICE PROVIDERS, WIRELESS CARRIERS OVER WHOSE NETWORK THE SERVICE COMPONENTS ARE DISTRIBUTED, AND ITS AND THEIR RESPECTIVE AFFILIATES, VENDORS, AGENTS, AND SUPPLIERS (“DISTRIBUTORS”), GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR CONDITIONS UNDER OR IN RELATION TO THE SERVICE COMPONENTS. YOU MAY HAVE ADDITIONAL CONSUMER RIGHTS UNDER YOUR LOCAL LAWS WHICH THIS AGREEMENT CANNOT CHANGE. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, DISTRIBUTORS EXCLUDE ANY IMPLIED WARRANTIES OR CONDITIONS, INCLUDING THOSE OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. 
+
+    DATA PROVIDED AS PART OF OR ACCESSED VIA THE SERVICE COMPONENTS MAY BE DERIVED FROM VARIOUS 3RD-PARTY SOURCES AND NO GUARANTEE IS GIVEN REGARDING THE AVAILABILITY, ACCURACY, OR SUITABILITY OF THIS DATA FOR ANY TASK.  YOU AGREE TO NOT USE THE SERVICE COMPONENTS IN ANY ENVIRONMENT WHERE INACCURACY OR OTHER LIMITATION COULD CAUSE HARM TO PERSONS OR PROPERTY.  IN ANY SITUATION WHERE INJURY OR HARM DOES OCCUR YOU AGREE TO WAIVE ANY CLAIMS FOR LIABILITY OR INJURY FOR SUCH USE. 
+
+
+
+22. LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES. TO THE EXTENT NOT PROHIBITED BY LAW, YOU CAN RECOVER FROM THE SERVICE PROVIDER ONLY DIRECT DAMAGES UP TO THE AMOUNT YOU PAID FOR THE SERVICE COMPONENTS DURING THE MOST RECENT THIRTY (30) DAYS. YOU AGREE NOT TO SEEK TO RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT OR INCIDENTAL DAMAGES FROM THE SERVICE PROVIDER OR ANY DISTRIBUTOR. 
+
+    This limitation applies to 
+
+    * anything related to the Service Components, data made available through the Service Components, or content (including code) on Visual Crossing or third-party Internet sites; and 
+
+    * claims for breach of contract; breach of warranty, guarantee or condition; or strict liability, negligence, or other tort to the extent permitted by applicable law. 
+
+    It also applies even if 
+
+    * repair, replacement, or a refund for the Service Components does not fully compensate you for any losses; or 
+
+    * Service Provider and/or distributor knew or should have known about the possibility of the damages. 
+
+
+
+23. TERMINATION.  This agreement may be terminated by you at any time for any reason.  In the event of termination by you, Visual Crossing will not be obligated to refund any fees already paid.  Any charges on your account that have not yet been billed will be immediately due and payable.  Unless otherwise specified in writing, this agreement may be terminated by Visual Crossing at the end of any billing period.  All applicable provisions including but not limited to Data Storage, Applicable Law, Disclaimer of Warranty, and Limitation on and Exclusion of Exclusion of Remedies and Damages shall survive and remain in force. 
+
+
+
+24. CONTACT. If you have any questions concerning this agreement, please contact us at support@visualcrossing.com. 
+
+
+
