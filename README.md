@@ -26,7 +26,7 @@ pip install git+https://github.com/ajrlewis/post_weather.git
 | date      | "2020-01-20" | the date requested
 | post_code | "W4 1LW" | the post code
 | weather_temp | 10.3 | the temperature
-| weather_recip | 0.0 | the precipitation amount.
+| weather_precip | 0.0 | the precipitation amount.
 
 
 ### Usage
