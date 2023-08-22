@@ -1,5 +1,5 @@
 import pandas as pd
-from post_weather import PostWeather
+from post_weather.post_weather import PostWeather
 
 
 def from_df(df: pd.DataFrame) -> pd.DataFrame:
