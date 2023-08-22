@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-import utils
+import post_weather.utils as utils
 
 
 class PostWeather:
