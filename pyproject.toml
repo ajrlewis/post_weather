@@ -1,0 +1,16 @@
+[project]
+name = "post_weather"
+version = "0.1.0"
+description = "A Python package for getting weather data at a UK postcode on a given date."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "ajrlewis", email = "hello@ajrlewis.com" }
+]
+dependencies = [
+    "pandas==2.0.3",
+    "requests==2.31.0",
+]
+
+[tool.setuptools]
+packages = ["post_weather"]
