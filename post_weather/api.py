@@ -7,20 +7,20 @@ def from_df(df: pd.DataFrame) -> pd.DataFrame:
     Computes the weather at given dates and post codes from a data frame.
 
     Parameters:
-    - df (pd.DataFrame): The input DataFrame with columns: ["api_key", "date", "post_code"].
+    - df (pd.DataFrame): The input DataFrame with columns: ["api_key", "date", "postcode"].
 
     Returns:
-    - df_weather (pd.DataFrame): The output DataFrame with columns: ["date", "post_code", "weather_temp", "weather_precip"].
+    - df_weather (pd.DataFrame): The output DataFrame with columns: ["date", "postcode", "weather_temp", "weather_precip"].
     """
     if "api_key" in df.columns:
         api_key = df.iloc[0]["api_key"]
     else:
         raise Exception("api_key column not in data frame.")
     dfs_weather = []
-    for post_code, group_df in df.groupby("post_code"):
+    for postcode, group_df in df.groupby("postcode"):
         if not group_df.empty:
             start_date, end_date = group_df["date"].agg(["min", "max"])
-            pw = PostWeather(api_key=api_key, post_code=post_code)
+            pw = PostWeather(api_key=api_key, postcode=postcode)
             df_weather = pw.get(start_date, end_date)
             dfs_weather.append(df_weather)
     df_weather = pd.concat(dfs_weather)
