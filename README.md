@@ -1,6 +1,6 @@
 # PostWeather
 
-This is a Python package for getting the "weather" at a given "postcode"!
+This is a Python package for getting the "weather" at a given "postcode" on a given "date"!
 
 ## Installation
 
@@ -10,31 +10,22 @@ To use this extension, you can install it via pip:
 pip install git+https://github.com/ajrlewis/post_weather.git
 ```
 
-## Input File
+## Usage
 
-| Column | Value | Description
-| --- | --- | --- |
-| api_key | "you-api-key" | your Visual Crossing Corporation API key
-| date      | "2020-01-20" | the date requested
-| post_code | "W4 1LW" | the post code.
-
-
-## Output File
-
-| Column | Value | Description
-| --- | --- | --- |
-| date      | "2020-01-20" | the date requested
-| post_code | "W4 1LW" | the post code
-| weather_temp | 10.3 | the temperature
-| weather_precip | 0.0 | the precipitation amount.
-
-
-### Usage
-
-```bash
-python weather/weather.py <your-api-key> data/W4-1LW-input.csv data/W4-1LW-output.csv
-
+```python
+from post_weather import PostWeather
+api_key = "your-api-key"
+dates = ["2020-01-20", "2020-01-21"]
+postcodes = ["W4 1LW"]
+pw = PostWeather(api_key, dates, postcodes)
 ```
+
+The weather is stored as data frame in the `pw.weather` attribute:
+
+| index | date | postcode | temperature | precipitation
+| --- | --- | --- | --- | --- |
+| 0 | 2020-01-20 | W4 1LW | 3.0 | 0.018 |
+| 1 | 2020-01-21 | W4 1LW | 2.1 | 0.000 |
 
 ## License
 
