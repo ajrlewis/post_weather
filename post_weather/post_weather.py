@@ -1,15 +1,18 @@
+from typing import List
 import pandas as pd
 import requests
 import post_weather.utils as utils
 
 
 class PostWeather:
-    def __init__(self, api_key: str, postcode: str):
+    def __init__(self, api_key: str, dates: List[str], postcodes: List[str]):
         self.api_key = api_key
-        self.postcode = postcode
+        self.dates = dates
+        self.postcodes = postcodes
+        self.weather = self.get()
 
-    def _get(self, start_date: str, end_date: str) -> pd.DataFrame:
-        url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{self.postcode}/{start_date}/{end_date}"
+    def _get(self, postcode: str, start_date: str, end_date: str) -> pd.DataFrame:
+        url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{postcode}/{start_date}/{end_date}"
         params = {
             "key": self.api_key,
             "unitGroup": "metric",
@@ -19,41 +22,45 @@ class PostWeather:
             "elements": "datetime,temp,precip",
         }
         try:
-            request = requests.get(url, params=params)
-            request.raise_for_status()
-            data = request.json()
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            data = response.json()
             data = data["days"]
             df = pd.DataFrame(data)
             df = df.rename(
                 columns={
                     "datetime": "date",
-                    "temp": "weather_temp",
-                    "precip": "weather_precip",
+                    "temp": "temperature",
+                    "precip": "precipitation",
                 }
             )
             df["date"] = pd.to_datetime(df["date"])
-            df["weather_temp"] = df["weather_temp"].astype(float)
-            df["weather_precip"] = df["weather_precip"].astype(float)
-            df["postcode"] = self.postcode
+            df["postcode"] = postcode
+            df["temperature"] = df["temperature"].astype(float)
+            df["precipitation"] = df["precipitation"].astype(float)
             columns = [
                 "date",
                 "postcode",
-                "weather_temp",
-                "weather_precip",
+                "temperature",
+                "precipitation",
             ]
             df = df[columns].copy()
             return df
         except Exception as e:
             raise Exception(
-                f"Error getting weather for {self.postcode} between {start_date} and {end_date}: {e}"
+                f"Error getting weather for {postcode} between {start_date} and {end_date}: {e}"
             )
-            return pd.DataFrame()
 
-    def get(self, start_date: str, end_date: str) -> pd.DataFrame:
-        dates = utils.chunk_dates(start_date, end_date, chunk_size=365)
-        dfs = []
-        for (start_date, end_date) in dates:
-            df = self._get(start_date, end_date)
-            dfs.append(df)
-        df = pd.concat(dfs)
-        return df
+    def get(self) -> pd.DataFrame:
+        dates = utils.chunk_dates(min(self.dates), max(self.dates), chunk_size=365)
+        weathers = []  # data frame of weathers
+        for postcode in self.postcodes:
+            for (start_date, end_date) in dates:
+                weather = self._get(postcode, start_date, end_date)
+                weathers.append(weather)
+        weather = (
+            pd.concat(weathers)
+            .sort_values(by=["date", "postcode"])
+            .reset_index(drop=True)
+        )
+        return weather
