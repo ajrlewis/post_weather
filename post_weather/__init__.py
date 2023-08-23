@@ -1,0 +1,1 @@
+from post_weather.post_weather import PostWeather
